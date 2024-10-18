@@ -32,6 +32,9 @@ const config: Config = {
       "5xl": ["60px", "1"],
       "6xl": ["72px", "1"],
     },
+    fontFamily: {
+      "departure-mono": ["var(--font-departure-mono)"],
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };
